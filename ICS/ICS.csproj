@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{782DD2E9-29FD-49A2-A1D5-BA2DD887765D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ICS</RootNamespace>
+    <AssemblyName>ICS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ICS.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePass.Designer.cs">
+      <DependentUpon>ChangePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerAfterSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerAfterSales.Designer.cs">
+      <DependentUpon>CustomerAfterSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerEntry.Designer.cs">
+      <DependentUpon>CustomerEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteCustomer.Designer.cs">
+      <DependentUpon>DeleteCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteProduct.Designer.cs">
+      <DependentUpon>DeleteProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletePurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletePurchase.Designer.cs">
+      <DependentUpon>DeletePurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteSales.Designer.cs">
+      <DependentUpon>DeleteSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteStock.Designer.cs">
+      <DependentUpon>DeleteStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteSupplier.Designer.cs">
+      <DependentUpon>DeleteSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ICSDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ICSDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_customer.Designer.cs">
+      <DependentUpon>particular_customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_customer1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_customer1.Designer.cs">
+      <DependentUpon>particular_customer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_product.Designer.cs">
+      <DependentUpon>particular_product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_products1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_products1.Designer.cs">
+      <DependentUpon>particular_products1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_products2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_products2.Designer.cs">
+      <DependentUpon>particular_products2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_purchase.Designer.cs">
+      <DependentUpon>particular_purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_purchase1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_purchase1.Designer.cs">
+      <DependentUpon>particular_purchase1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_purchase2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_purchase2.Designer.cs">
+      <DependentUpon>particular_purchase2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_purchase3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_purchase3.Designer.cs">
+      <DependentUpon>particular_purchase3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_purchase4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_purchase4.Designer.cs">
+      <DependentUpon>particular_purchase4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_sales.Designer.cs">
+      <DependentUpon>particular_sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_sales1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_sales1.Designer.cs">
+      <DependentUpon>particular_sales1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_sales2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_sales2.Designer.cs">
+      <DependentUpon>particular_sales2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_supplier.Designer.cs">
+      <DependentUpon>particular_supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_supplier1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_supplier1.Designer.cs">
+      <DependentUpon>particular_supplier1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="particular_supplier2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="particular_supplier2.Designer.cs">
+      <DependentUpon>particular_supplier2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PurchaseEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PurchaseEntry.Designer.cs">
+      <DependentUpon>PurchaseEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rcustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rcustomer.Designer.cs">
+      <DependentUpon>rcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rproduct.Designer.cs">
+      <DependentUpon>rproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rpurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rpurchase.Designer.cs">
+      <DependentUpon>rpurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rsales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rsales.Designer.cs">
+      <DependentUpon>rsales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rsupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rsupplier.Designer.cs">
+      <DependentUpon>rsupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesEntry.Designer.cs">
+      <DependentUpon>SalesEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StockEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StockEntry.Designer.cs">
+      <DependentUpon>StockEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory Control.Designer.cs">
+      <DependentUpon>Inventory Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuppliersEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuppliersEntry.Designer.cs">
+      <DependentUpon>SuppliersEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateCustomer.Designer.cs">
+      <DependentUpon>UpdateCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateProduct.Designer.cs">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatePurchase.Designer.cs">
+      <DependentUpon>UpdatePurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSales.Designer.cs">
+      <DependentUpon>UpdateSales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateStock.Designer.cs">
+      <DependentUpon>UpdateStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateSupplier.Designer.cs">
+      <DependentUpon>UpdateSupplier.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChangePass.resx">
+      <DependentUpon>ChangePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerAfterSales.resx">
+      <DependentUpon>CustomerAfterSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerEntry.resx">
+      <DependentUpon>CustomerEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteCustomer.resx">
+      <DependentUpon>DeleteCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteProduct.resx">
+      <DependentUpon>DeleteProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletePurchase.resx">
+      <DependentUpon>DeletePurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteSales.resx">
+      <DependentUpon>DeleteSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteStock.resx">
+      <DependentUpon>DeleteStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteSupplier.resx">
+      <DependentUpon>DeleteSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_customer.resx">
+      <DependentUpon>particular_customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_customer1.resx">
+      <DependentUpon>particular_customer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_product.resx">
+      <DependentUpon>particular_product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_products1.resx">
+      <DependentUpon>particular_products1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_products2.resx">
+      <DependentUpon>particular_products2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_purchase.resx">
+      <DependentUpon>particular_purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_purchase1.resx">
+      <DependentUpon>particular_purchase1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_purchase2.resx">
+      <DependentUpon>particular_purchase2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_purchase3.resx">
+      <DependentUpon>particular_purchase3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_purchase4.resx">
+      <DependentUpon>particular_purchase4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_sales.resx">
+      <DependentUpon>particular_sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_sales1.resx">
+      <DependentUpon>particular_sales1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_sales2.resx">
+      <DependentUpon>particular_sales2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_supplier.resx">
+      <DependentUpon>particular_supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_supplier1.resx">
+      <DependentUpon>particular_supplier1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="particular_supplier2.resx">
+      <DependentUpon>particular_supplier2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PurchaseEntry.resx">
+      <DependentUpon>PurchaseEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rcustomer.resx">
+      <DependentUpon>rcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rproduct.resx">
+      <DependentUpon>rproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpurchase.resx">
+      <DependentUpon>rpurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rsales.resx">
+      <DependentUpon>rsales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rsupplier.resx">
+      <DependentUpon>rsupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesEntry.resx">
+      <DependentUpon>SalesEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StockEntry.resx">
+      <DependentUpon>StockEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory Control.resx">
+      <DependentUpon>Inventory Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SuppliersEntry.resx">
+      <DependentUpon>SuppliersEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateCustomer.resx">
+      <DependentUpon>UpdateCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateProduct.resx">
+      <DependentUpon>UpdateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePurchase.resx">
+      <DependentUpon>UpdatePurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSales.resx">
+      <DependentUpon>UpdateSales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStock.resx">
+      <DependentUpon>UpdateStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSupplier.resx">
+      <DependentUpon>UpdateSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.Config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ICSDataSet.xsc">
+      <DependentUpon>ICSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet.xss">
+      <DependentUpon>ICSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet1.xsc">
+      <DependentUpon>ICSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet1.xss">
+      <DependentUpon>ICSDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet10.xsc">
+      <DependentUpon>ICSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet10.xss">
+      <DependentUpon>ICSDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet11.xsc">
+      <DependentUpon>ICSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet11.xss">
+      <DependentUpon>ICSDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet12.xsc">
+      <DependentUpon>ICSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet12.xss">
+      <DependentUpon>ICSDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet13.xsc">
+      <DependentUpon>ICSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet13.xss">
+      <DependentUpon>ICSDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet14.xsc">
+      <DependentUpon>ICSDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet14.xss">
+      <DependentUpon>ICSDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet15.xsc">
+      <DependentUpon>ICSDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet15.xss">
+      <DependentUpon>ICSDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet2.xsc">
+      <DependentUpon>ICSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet2.xss">
+      <DependentUpon>ICSDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet3.xsc">
+      <DependentUpon>ICSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet3.xss">
+      <DependentUpon>ICSDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet4.xsc">
+      <DependentUpon>ICSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet4.xss">
+      <DependentUpon>ICSDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet5.xsc">
+      <DependentUpon>ICSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet5.xss">
+      <DependentUpon>ICSDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet6.xsc">
+      <DependentUpon>ICSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet6.xss">
+      <DependentUpon>ICSDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet7.xsc">
+      <DependentUpon>ICSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet7.xss">
+      <DependentUpon>ICSDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet8.xsc">
+      <DependentUpon>ICSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet8.xss">
+      <DependentUpon>ICSDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet9.xsc">
+      <DependentUpon>ICSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ICSDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ICSDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ICSDataSet9.xss">
+      <DependentUpon>ICSDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.3.5">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 3.5 SP2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICS.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ICS_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>ICS.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\4707671312.jpg" />
+    <None Include="Resources\pict--close-window-button-window-elements-vector-stencils-library2.jpg" />
+    <None Include="Resources\pict--close-window-button-window-elements-vector-stencils-library1.jpg" />
+    <None Include="Resources\pict--close-window-button-window-elements-vector-stencils-library.jpg" />
+    <None Include="Resources\pict--close-window-button-window-elements-vector-stencils-library2.png" />
+    <None Include="Resources\download.jpg" />
+    <None Include="Resources\pict--close-window-button-window-elements-vector-stencils-library1.png" />
+    <None Include="Resources\pict--close-window-button-window-elements-vector-stencils-library.png" />
+    <None Include="Resources\4707671311.jpg" />
+    <None Include="Resources\470767131.jpg" />
+    <None Include="Resources\DB warehouse.jpg" />
+    <None Include="Resources\Female-inventory-manager-tracking-inventory-on-an-iPad-e1448989000816-750x3881.jpg" />
+    <None Include="Resources\customer-service-delight-receiving-delivery-624x416.jpg" />
+    <None Include="Resources\ent_supplier_diversity_capacity_building.jpg" />
+    <None Include="Resources\Supplier_4.jpg" />
+    <None Include="Resources\picture2f20152f022fpurchasinganewwarehouse2.jpg" />
+    <None Include="Resources\picture2f20152f022fpurchasinganewwarehouse1.jpg" />
+    <None Include="Resources\04-Empresa-Estoque-foto-031.jpg" />
+    <None Include="Resources\picture2f20152f022fpurchasinganewwarehouse.jpg" />
+    <None Include="Resources\iStock_0000186830301.jpg" />
+    <None Include="Resources\Warning-_You_re_Losing_Money_By_Not_Using_These_8_Inventory_Management_Techniques.jpg" />
+    <None Include="Resources\04-Empresa-Estoque-foto-03.jpg" />
+    <None Include="Resources\Business-ConsumersSmall1.jpg" />
+    <None Include="Resources\Business-ConsumersSmall.jpg" />
+    <None Include="Resources\78431004.jpg" />
+    <None Include="Resources\manager_using_ipad_tablet_computer_in_distribution_warehouse_inventory_management1.jpg" />
+    <None Include="Resources\suppliers1.jpg" />
+    <None Include="Resources\suppliers.jpg" />
+    <None Include="Resources\man-using-barcode-scanner-with-computer2.jpg" />
+    <None Include="Resources\man-using-barcode-scanner-with-computer1.jpg" />
+    <None Include="Resources\man-using-barcode-scanner-with-computer.jpg" />
+    <None Include="Resources\manager_using_ipad_tablet_computer_in_distribution_warehouse_inventory_management.jpg" />
+    <None Include="Resources\lead_960.jpg" />
+    <None Include="Resources\checkout-counter-fotofrog-istock-20150626.jpg" />
+    <None Include="Resources\stock_warehouse3.jpg" />
+    <None Include="Resources\stock_warehouse2.jpg" />
+    <None Include="Resources\stock_warehouse1.jpg" />
+    <None Include="Resources\stock_warehouse.jpg" />
+    <None Include="Resources\stores.jpg" />
+    <None Include="Resources\Preparing_for_Future_Growth_with_an_Inventory_Control_System_1.jpg" />
+    <None Include="Resources\iStock_000018683030.jpg" />
+    <None Include="Resources\keyboard21.jpg" />
+    <None Include="Resources\keyboard2.jpg" />
+    <None Include="Resources\Businessman_Safe_Secure_Protected_User_Lock_Person-512.png" />
+    <None Include="Resources\20150804170559-warehouse-workers-employees-stock-inventory.jpeg" />
+    <None Include="Resources\Female-inventory-manager-tracking-inventory-on-an-iPad-e1448989000816-750x388.jpg" />
+    <None Include="Resources\Preparing_for_Future_Growth_with_an_Inventory_Control_System_.jpg" />
+    <None Include="Resources\inventory-management-banner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="keyboard21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture2f20152f022fpurchasinganewwarehouse2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture2f20152f022fpurchasinganewwarehouse2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Preparing_for_Future_Growth_with_an_Inventory_Control_System_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Preparing_for_Future_Growth_with_an_Inventory_Control_System_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pict--close-window-button-window-elements-vector-stencils-library1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pict--close-window-button-window-elements-vector-stencils-library1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20150804170559-warehouse-workers-employees-stock-inventory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20150804170559-warehouse-workers-employees-stock-inventory.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man-using-barcode-scanner-with-computer1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man-using-barcode-scanner-with-computer1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pict--close-window-button-window-elements-vector-stencils-library3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pict--close-window-button-window-elements-vector-stencils-library.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pict--close-window-button-window-elements-vector-stencils-library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pict--close-window-button-window-elements-vector-stencils-library.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Female-inventory-manager-tracking-inventory-on-an-iPad-e1448989000816-750x388" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Female-inventory-manager-tracking-inventory-on-an-iPad-e1448989000816-750x388.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manager_using_ipad_tablet_computer_in_distribution_warehouse_inventory_management1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manager_using_ipad_tablet_computer_in_distribution_warehouse_inventory_management1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stock_warehouse3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stock_warehouse3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keyboard2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keyboard2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inventory-management-banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inventory-management-banner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4707671311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4707671311.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iStock_000018683030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iStock_000018683030.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stock_warehouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stock_warehouse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB warehouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB warehouse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="manager_using_ipad_tablet_computer_in_distribution_warehouse_inventory_management" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\manager_using_ipad_tablet_computer_in_distribution_warehouse_inventory_management.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stock_warehouse1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stock_warehouse1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture2f20152f022fpurchasinganewwarehouse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture2f20152f022fpurchasinganewwarehouse.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man-using-barcode-scanner-with-computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man-using-barcode-scanner-with-computer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ent_supplier_diversity_capacity_building" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ent_supplier_diversity_capacity_building.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="470767131" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\470767131.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="picture2f20152f022fpurchasinganewwarehouse1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\picture2f20152f022fpurchasinganewwarehouse1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Business-ConsumersSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Business-ConsumersSmall.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Supplier_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Supplier_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="04-Empresa-Estoque-foto-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04-Empresa-Estoque-foto-03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pict--close-window-button-window-elements-vector-stencils-library4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pict--close-window-button-window-elements-vector-stencils-library1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Businessman_Safe_Secure_Protected_User_Lock_Person-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Businessman_Safe_Secure_Protected_User_Lock_Person-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stores" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stores.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lead_960" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lead_960.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Business-ConsumersSmall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Business-ConsumersSmall1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iStock_0000186830301" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iStock_0000186830301.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="78431004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\78431004.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkout-counter-fotofrog-istock-20150626" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkout-counter-fotofrog-istock-20150626.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="04-Empresa-Estoque-foto-031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\04-Empresa-Estoque-foto-031.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Preparing_for_Future_Growth_with_an_Inventory_Control_System_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Preparing_for_Future_Growth_with_an_Inventory_Control_System_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suppliers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suppliers.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Warning-_You_re_Losing_Money_By_Not_Using_These_8_Inventory_Management_Techniques" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Warning-_You_re_Losing_Money_By_Not_Using_These_8_Inventory_Management_Techniques.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stock_warehouse2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stock_warehouse2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="suppliers1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suppliers1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pict--close-window-button-window-elements-vector-stencils-library5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pict--close-window-button-window-elements-vector-stencils-library2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customer-service-delight-receiving-delivery-624x416" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customer-service-delight-receiving-delivery-624x416.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man-using-barcode-scanner-with-computer2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man-using-barcode-scanner-with-computer2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Female-inventory-manager-tracking-inventory-on-an-iPad-e1448989000816-750x3881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Female-inventory-manager-tracking-inventory-on-an-iPad-e1448989000816-750x3881.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pict--close-window-button-window-elements-vector-stencils-library2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pict--close-window-button-window-elements-vector-stencils-library2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4707671312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4707671312.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
